@@ -1,0 +1,178 @@
+Global Styles 
+body {
+    font-family 'Arial', sans-serif;
+    background-color #f8f9fa;
+    color #333;
+    margin 0;
+    padding 0;
+}
+
+ Navigation Bar 
+.navbar {
+    background-color #333;
+}
+
+.navbar-brand, .nav-link {
+    color #fff !important;
+}
+
+.nav-linkhover {
+    color #007bff !important;
+}
+
+ Footer 
+footer {
+    background-color #333;
+    color white;
+    padding 1rem;
+    font-size 0.9rem;
+    text-align center;
+}
+
+ Page Header 
+header h1 {
+    font-size 2.5rem;
+    margin-bottom 0.5rem;
+    font-weight bold;
+}
+
+header p {
+    font-size 1.2rem;
+    color #6c757d;
+}
+
+ Hero Section 
+.hero-section img {
+    max-width 100%;
+    border-radius 15px;
+    box-shadow 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hero-section p {
+    font-size 1.2rem;
+    line-height 1.6;
+}
+
+ Card Styles 
+.card {
+    border none;
+    transition transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius 15px;
+}
+
+.card img {
+    height 250px;
+    object-fit cover;
+    border-radius 15px 15px 0 0;
+}
+
+.cardhover {
+    transform translateY(-5px);
+    box-shadow 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size 1.25rem;
+    color #007bff;
+    font-weight bold;
+}
+
+.card-text {
+    font-size 1rem;
+    color #555;
+    line-height 1.5;
+}
+
+ Interactive Cards 
+.interactive-card img {
+    height 250px;
+    object-fit cover;
+    border-radius 15px 15px 0 0;
+}
+
+.interactive-card {
+    border none;
+    transition transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius 15px;
+}
+
+.interactive-cardhover {
+    transform translateY(-5px);
+    box-shadow 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+ Contact Form 
+form .form-control {
+    border-radius 10px;
+    box-shadow 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form .btn {
+    border-radius 10px;
+    transition background-color 0.3s ease;
+}
+
+form .btnhover {
+    background-color #0056b3;
+    color #fff;
+}
+
+ Social Media Buttons 
+.btn-outline-primary {
+    border-radius 10px;
+    border 2px solid #007bff;
+    color #007bff;
+    transition all 0.3s ease;
+}
+
+.btn-outline-primaryhover {
+    background-color #007bff;
+    color white;
+}
+
+ List Group Items 
+.list-group-item {
+    border none;
+    padding 1.5rem 1rem;
+    margin-bottom 0.5rem;
+    transition background-color 0.3s ease;
+}
+
+.list-group-itemhover {
+    background-color #f8f9fa;
+}
+
+.list-group-item h5 {
+    font-size 1.5rem;
+    margin-bottom 0.5rem;
+}
+
+.list-group-item p {
+    font-size 1rem;
+    color #6c757d;
+}
+
+ FAQ Section 
+section h5 {
+    font-weight bold;
+}
+
+section p {
+    font-size 1.1rem;
+}
+
+ Game Cards Section 
+.game-cards-section .card {
+    border none;
+    border-radius 15px;
+    transition transform 0.3s, box-shadow 0.3s;
+    overflow hidden;
+    cursor pointer;
+}
+
+.game-cards-section .cardhover {
+    transform translateY(-5px);
+    box-shadow 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.game-cards-section .btn-outline-primar
